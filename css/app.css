@@ -1,0 +1,59 @@
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+input.form-control {
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+}
+
+.banner-image{
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-image {
+    height: 600px;
+    background: linear-gradient(rgba(0, 0, 0.3, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+h3,
+.icon {
+    margin: auto;
+}
+
+.cap {
+    width: 150px;
+    height: 150px;
+    background-color: #c7c6c2;
+}
+
+.card.card-footer {
+    border-top: 0px;
+    background-color: #c7c6c2;
+}
+
+ul.navbar-nav.list-3 {
+    margin: auto;
+}
+
+
+li.nav-item.dropdown {
+    padding-right: 50px;
+}
+
+.navbar-nav li:hover>.dropdown-menu {
+    display: block;
+  }
+
