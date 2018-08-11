@@ -64,7 +64,11 @@ banner-item.text-center {
     color: white;
 }
 
-.product-header ,
-.product-design.mb-2 {
-margin: auto ;
+div#sale-img {
+    margin: auto;
+}
+
+.product{
+    width:200px;
+    height: 200px;
 }
