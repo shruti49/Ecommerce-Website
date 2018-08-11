@@ -9,7 +9,6 @@ input.form-control {
     border-radius: 200px;
 }
 
-
 .hero-image {
     height: 600px;
     background: linear-gradient(rgba(0, 0, 0.3, 0.2), rgba(0, 0, 0, 0.2));
@@ -24,26 +23,9 @@ input.form-control {
     font-size: 50px;
 }
 
-h3,
-.icon {
-    margin: auto;
-}
-
-.cap {
-    width: 150px;
-    height: 150px;
-    background-color: #c7c6c2;
-}
-
-.card.card-footer {
-    border-top: 0px;
-    background-color: #c7c6c2;
-}
-
 ul.navbar-nav.list-3 {
     margin: auto;
 }
-
 
 li.nav-item.dropdown {
     padding-right: 50px;
@@ -51,5 +33,38 @@ li.nav-item.dropdown {
 
 .navbar-nav li:hover>.dropdown-menu {
     display: block;
-  }
+}
 
+a {
+    text-decoration: none !important;
+}
+
+.home-banner {
+    background-color: #323234;
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+banner-item.text-center {
+    background-color: #323234;
+}
+
+.icons {
+    color: #c43b68;
+    font-size: 30px;
+    padding: 20px 0px;
+    font-family: 'simple-line-icons';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.title,
+.subtitle {
+    color: white;
+}
+
+.product-header ,
+.product-design.mb-2 {
+margin: auto ;
+}

@@ -78,6 +78,12 @@
                         <p>Books</p>
                     </a>
                 </li>
+                <li class="hide">
+                        <a href="#">
+                            <i class="fas fa-gamepad"></i>
+                            <p>Gaming</p>
+                        </a>
+                    </li>
             </ul>
         </nav>
 
@@ -150,8 +156,8 @@
     <main id="slider">
 
         <!--SALE BANNER-->
-        <div class="row border" id="sale-img">
-            <img src="img/sale.jpg" alt="banner" class="banner-image"> 
+        <div class="row mt-3 mb-3" id="sale-img">
+            <img src="img/sale.jpg" alt="banner" class="banner-image rounded">
         </div>
 
         <!--CAROUSEL-->
@@ -203,92 +209,88 @@
     </main>
 
     <!--FEATURED PRODUCTS-->
-    <section>
-        <div class="container mb-5">
-            <div class="row">
-                <h3 class="mt-5">FEATURED PRODUCTS</h3>
+    <section class="mt-3">
+        <div class="container">
+            <div class="featured-products m-0">
+                <div class="product-header">
+                    <h3>FEATURED PRODUCTS</h3>
+                </div>
+                <div class="product-design mb-2">
+                    <img src="img/icon.png" alt="icon" class="icon">
+                </div>
             </div>
-            <div class="row">
-                <img src="img/icon.png" alt="icon" class="icon">
-            </div>
-            <div class="card-deck mt-5">
-                <div class="card">
-                    <a href="#">
-                        <img src="img/pic-1.jpg" alt="Card-image" class="cap"> Footer
-                    </a>
-
-                </div>
-                <div class="card">
-                    <a href="#">
-                        <img src="img/pic-2.jpg" alt="Card-image" class="cap"> Footer
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="#">
-                        <img src="img/pic-4.jpg" alt="Card-image" class="cap">
-                        <div class="card-footer">Footer</div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="#">
-                        <img src="img/pic-3.jfif" alt="Card-image" class="cap">
-                        <div class="card-footer">Footer</div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="#">
-                        <img src="img/pic-5.jpg" alt="Card-image" class="cap">
-                        <div class="card-footer">Footer</div>
-                    </a>
+            <div class="row m-0">
+                <div class="deck-product">
+                    <div class="col-sm pb-2">
+                        <a href="#">
+                            <img src="img/2.png" alt="" class="product rounded ">
+                        </a>
+                    </div>
+                    <div class="col-sm pb-2">
+                        <a href="#">
+                            <img src="img/4.png" alt="" class="product rounded">
+                        </a>
+                    </div>
+                    <div class="col-sm pb-2">
+                        <a href="#">
+                            <img src="img/3.jpg" alt="" class="product rounded">
+                        </a>
+                    </div>
+                    <div class="col-sm pb-2">
+                        <a href="#">
+                            <img src="img/pic-4.jpg" alt="" class="product rounded">
+                        </a>
+                    </div>
+                    <div class="col-sm pb-2">
+                        <a href="#">
+                            <img src="img/pic-3.jfif" alt="" class="product rounded">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
 
-
-    <div class="home-banner owl-style-1 effect-1" style="background-color: #323234; margin-top: 0px;">
-        <div class="container">
-            <div class="home-banner-items">
+    <section>
+        <div class="home-banner">
+            <div class="container">
                 <div class="row">
+
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="banner-item text-center" style="background-color: #323234">
-                            <div class="text no-image">
-                                <a href="" class="icon-title">
-                                    <i class="icon-anchor icons" style="color: #ffffff;"></i>
-                                    <span class="title h4" style="color: #ffffff;">Return & Exchange</span>
-                                </a>
-                                <div class="subtitle h6" style="color: #ffffff;">Committed to return the money in 30 days</div>
-                            </div>
+                        <div class="banner-item text-center">
+                            <a href="" class="icon-title">
+                                <i class="fas fa-anchor icons"></i>
+                                <h4 class="title">Return & Exchange</h4>
+                            </a>
+                            <h6 class="subtitle">Committed to return the money in 30 days</h6>
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="banner-item text-center" style="background-color: #323234">
-                            <div class="text no-image">
-                                <a href="" class="icon-title">
-                                    <i class="icon-present icons" style="color: #ffffff;"></i>
-                                    <span class="title h4" style="color: #ffffff;">Recieve Gift Card</span>
-                                </a>
-                                <div class="subtitle h6" style="color: #ffffff;">Receive gift all over order $50</div>
-                            </div>
+                        <div class="banner-item text-center">
+                            <a href="" class="icon-title">
+                                <i class="fas fa-gift icons"></i>
+                                <h4 class="title">Recieve Gift Card</h4>
+                            </a>
+                            <h6 class="subtitle">Receive gift all over order $50</h6>
                         </div>
+
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="banner-item text-center" style="background-color: #323234">
-                            <div class="text no-image">
-                                <a href="" class="icon-title">
-                                    <i class="icon-people icons" style="color: #ffffff;"></i>
-                                    <span class="title h4" style="color: #ffffff;">ONLINE SUPPORT 24/7</span>
-                                </a>
-                                <div class="subtitle h6" style="color: #ffffff;">24/7 online support is always ready</div>
-                            </div>
+                        <div class="banner-item text-center">
+                            <a href="" class="icon-title">
+                                <i class="fas fa-users icons"></i>
+                                <h4 class="title ">ONLINE SUPPORT 24/7</h4>
+                            </a>
+                            <h6 class="subtitle">24/7 online support is always ready</h6>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
 
     <footer>
         <div class="d-inline-flex">
@@ -324,7 +326,6 @@
                 </ul>
             </div>
         </div>
-    </footer>
     </footer>
 
     <!-- Optional JavaScript -->
